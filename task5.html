@@ -4,8 +4,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 </head>
 <body>
+    <div class="row">
+        <div class="block">тут собачка живет
+            <i class="fas fa-dog fa-2x"></i>
+        </div>
+
+        <div class="block" style="flex-grow:2; text-align: center;">
+            <i class="fas fa-cat fa-2x"></i>
+            <i class="fas fa-cat fa-2x"></i>
+            <i class="fas fa-cat fa-2x"></i>
+        </div>
+
+        <div class="block" style="flex-grow: 0; flex-basis: 250px;">
+            <i class="fas fa-kiwi-bird fa-2x"></i>
+            дом киви
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="block">
+            <i class="fas fa-crow fa-2x"></i>
+            ворона
+        </div>
+        <div class="block" style="flex-grow: 3; text-align: center;">
+            
+            <i class="fas fa-dog fa-2x"></i>
+            <i class="fas fa-dog fa-2x"></i>
+        </div>
     
+        <div class="block">
+            <i class="fas fa-dove fa-2x"></i>
+            голубь
+        </div>
+        <div class="block" style="flex-grow: 2; flex-basis: 0;">
+            <i class="fas fa-2x fa-horse"></i>
+            лошадка
+        </div>
+    </div>
+
+    <style>
+        .block{
+            border: 1px solid black;
+            /*height: 1rem; /* высоту блока в единице измерения rem = стандартной высоте одной строки*/
+            margin-bottom: 0.5rem; /* отступ снизу*/
+            /*margin-top: 0.5rem;*/
+            margin: 0.25em;/*отступы вокруг блоков*/
+            padding: 0.5em;/*отступы внутри блоков*/
+            flex-grow: 1; /*указываем сколько относительного места блокам полагается занимать в строке*/
+            /*flex-basis: 0;/*размер содержимого*/
+        }
+        .row{
+            display: flex;
+        }      
+    </style>
 </body>
 </html>
