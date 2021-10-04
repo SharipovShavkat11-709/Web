@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task9</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    <div style="display: flex; justify-content: flex-start; margin: 0.5em; padding: 0.5em;">
+        <div style="display: flex; flex-direction: column; align-items: center; margin: 0.4em; padding: 0.4em;">
+            <div class="main-image-wrapper">
+                <img class="main-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Haanja_2010_01_1.jpg/1200px-Haanja_2010_01_1.jpg" alt="">
+            </div>
+            <br>
+            <div style="font-size: 2em; color: darkblue;"><strong>Зима</strong> 
+            </div>
+            <div style="font-size: 1em;">близко</div>
+        </div>
+
+        <!--вторая колонка-->
+        <div style="display: flex; flex-direction: column; justify-content: center;align-items: center; margin: 0.75em; padding: 0.75em;">
+            <div style="font-size: 1em; text-align: center;"><em>
+                Зима, на улице похолодало.<br>
+                И веет,веет ветер перемен.<br>
+                Везде так сыро, неуютно стало,<br>
+                Пугает чьих-то мыслей тень.<br>
+                <p>
+                    А тот, кто днём увидел вдруг закат,<br>
+                    Не знает, что же дальше делать. <br>
+                    Ночами долгими не может спать, <br>
+                    Поняв, что за мечтами нет надежды бегать.
+                </p>
+                <p>
+                    По мыслям втоптанным в асфальт <br>
+                    Бредет в надежде солнечного света, <br>
+                    Он не устал пока искать <br>
+                    Столь долгожданного рассвета.
+                </p>
+            </em>
+            </div>
+            <div style="display: flex;">
+                <div class="block">
+                    Харизма<br>
+                    Интеллект<br>
+                    Сила<br>
+                    Ловкость
+                </div>
+
+                <div class="block" style="text-align: right;">
+                    7<br>
+                    8<br>
+                    <i class="fas fa-cog fa-spin"></i><br>
+                    7
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .main-image-wrapper {
+            height: 250px;
+            width: 250px;
+            border: 1px solid silver;
+            margin: 8px;
+            box-shadow: 0 0 16px silver;
+            border-radius: 50%; 
+            overflow: hidden;
+        }
+
+        .main-image{
+            height: 100%;
+        }
+
+        .block {
+            margin-bottom: 0.5rem;
+            margin: 0.25rem;
+            padding: 0.5rem;
+            flex-grow: 1;
+        }
+    </style>
+</body>
+</html>
